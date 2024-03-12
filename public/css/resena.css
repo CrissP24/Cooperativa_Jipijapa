@@ -1,0 +1,13 @@
+.container1{
+        background: rgba(152, 241, 176, 0.979);
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        width: 550px;
+        text-align: center;
+
+}
+.imagengusta{
+    width: 250px;
+    height: 150px;
+}

@@ -1,0 +1,59 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(rgba(220, 234, 237, .7), rgba(220, 234, 237, .7)),
+        url(http://res.cloudinary.com/jenelle-miller/image/upload/v1518619522/doodles_cuau2z.png) repeat;
+}
+.header {
+    background-color: #005a9c;
+    color: rgb(7, 6, 6);
+    text-align: center;
+    padding: 2rem;
+}
+
+.header h1 {
+    margin: 0;
+}
+/* Estilo para el contenedor div */
+.tabla {
+    width: 50%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+
+/* Estilo del encabezado */
+.tabla th, .tabla td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.tabla th {
+    background-color: #fffbfb;
+    color: #101010;
+    font-weight: bold;
+
+}
+
+/* Estilo de las filas impares */
+.tabla tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Hover sobre las filas */
+.tabla tr:hover {
+    background-color: #b0ffce;
+}
+
+/* Alineación a la izquierda para la primera columna */
+.tabla td:first-child, .tabla th:first-child {
+    text-align: left;
+}

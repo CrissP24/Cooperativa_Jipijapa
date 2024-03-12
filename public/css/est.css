@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/* STYLES */
+
+/* fonts */
+:root {
+    --font-primary: 'Montserrat', 'Arial', sans-serif;
+    --font-body: 'Lato', 'Arial', sans-serif;
+}
+
+/* colors */
+:root {
+    --color-primary: #8D6CC7;
+    --color-primary-dark: darken(#8D6CC7, 3%);
+    --color-light-gray: #DAE2F1;
+}
+
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(rgba(220, 234, 237, .7), rgba(220, 234, 237, .7)),
+        url(http://res.cloudinary.com/jenelle-miller/image/upload/v1518619522/doodles_cuau2z.png) repeat;
+}
+
+.container {
+    height: 100%;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: var(--font-primary);
+    color: var(--color-primary);
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 32px;
+}
+
+/* FORM */
+.form-background {
+    background: #fff;
+    width: 420px;
+    border-radius: 10px;
+    padding: 32px;
+    box-shadow: 0px 15px 88px -37px rgba(0, 0, 0, 0.17);
+}
+
+form {
+    text-transform: capitalize;
+    font-family: var(--font-body);
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    border: 1px solid var(--color-light-gray);
+    padding: 15px 20px;
+    color: #8498AF;
+    font-size: .9rem;
+    transition: .4s;
+}
+
+input:last-child {
+    margin-bottom: 0;
+}
+
+input:focus {
+    border-color: var(--color-primary);
+    outline: none;
+}
+
+[type="submit"] {
+    background: var(--color-primary);
+    border-radius: 30px;
+    padding: 16px 30px;
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .8rem;
+    transition: .4s;
+    font-family: var(--font-primary);
+    border: none;
+    box-shadow: none;
+    margin: 0;
+}
+
+[type="submit"]:hover {
+    background: var(--color-primary-dark);
+    cursor: pointer;
+}
+
+.sign-up-divider {
+    font-family: var(--font-primary);
+    text-align: center;
+    color: #C4C8D4;
+    font-size: .8rem;
+    letter-spacing: .5px;
+    padding: 24px 0;
+}
+
+.sign-up-divider::before,
+.sign-up-divider::after {
+    content: '';
+    display: inline-block;
+    width: 27%;
+    margin: 0 5%;
+    height: 1px;
+    background: var(--color-light-gray);
+    vertical-align: middle;
+}
+
+/* Social Icons */
+.social-media-icons {
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icons li {
+    margin-right: 10px;
+    list-style: none;
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1rem;
+    line-height: .8rem;
+    transition: .3s;
+    display: relative;
+    padding-top: 15px;
+}
+
+.social-media-icons li a {
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    top: 10px;
+}
+
+li.google {
+    background: #EA5859;
+}
+
+li.google:hover {
+    background: darken(#EA5859, 6%);
+    cursor: pointer;
+}
+
+li.facebook {
+    background: #527ED5;
+}
+
+li.facebook:hover {
+    background: darken(#527ED5, 6%);
+    cursor: pointer;
+}
+
+li.twitter {
+    background: #61BDED;
+}
+
+li.twitter:hover {
+    background: darken(#61BDED, 6%);
+    cursor: pointer;
+}
+
+/* LOGIN */
+.login {
+    text-align: center;
+    margin-top: 24px;
+    font-size: .8rem;
+    font-family: var(--font-primary);
+}
+
+.login a {
+    margin-left: 4px;
+    text-decoration: none;
+    color: var(--color-primary);
+    transition: .3s;
+}
+
+.login a:hover {
+    color: var(--color-primary-dark);
+}
+.centrado {
+    text-align: center;
+}
+.centrado_1 {
+        margin: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: left;
+    }
+.bus{
+        width: 500px;
+        height: 500px;
+}

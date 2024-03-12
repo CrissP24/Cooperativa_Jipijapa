@@ -1,0 +1,106 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(rgba(220, 234, 237, .7), rgba(220, 234, 237, .7)),
+        url(http://res.cloudinary.com/jenelle-miller/image/upload/v1518619522/doodles_cuau2z.png) repeat;
+}
+.header {
+    background-color:#005a9c;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 1rem;
+}
+
+.header h1 {
+    margin: 0;
+}
+nav {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #005a9c;
+    text-decoration: none;
+}
+.grid-container {
+    max-width: 800px;  /* Puedes ajustar este valor según tu preferencia */
+    margin: 0 auto;   /* Centra el grid-container horizontalmente */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ajusta según tus necesidades */
+    gap: 50px;        /* Espacio entre los grid-items */
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+.grid-item {
+    text-align: center;
+    background-color: #84c7f8; /* Color de fondo para cada elemento */
+    padding: 10px; /* Espaciado interno para mejorar la apariencia */
+    border-radius: 8px; /* Bordes redondeados para suavizar los extremos */
+}
+img {
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Tamaño máximo deseado para las imágenes */
+    display: block;
+    margin: 0 auto;
+    margin-top: 1px;
+
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    padding: 3rem;
+
+}
+.flex-container img {
+    max-width: 30px;
+}
+
+.price {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#title h1 {
+    color: #333;
+    margin-bottom: 20px; /* Añade un margen inferior al título para separarlo del contenido */
+    text-align: center;
+}
+
+
+.ver-productos-button button{
+    background-color:#005a9c;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+
+
+}
+.ver-productos-button button:hover{
+    background-color: #000000; /* Cambia el color de fondo al pasar sobre el botón */
+
+}
